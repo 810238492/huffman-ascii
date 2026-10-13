@@ -1,0 +1,25 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.dll
+*.a
+*.so
+code/huffman_utf8
+code/tests/core_checks
+build/
+
+# 实验生成文件
+tmp/
+*.huf8
+code/restored.txt
+__pycache__/
+*.pyc
+
+# 本机设置
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
