@@ -7,3 +7,8 @@
 *.png binary
 # 示例是逐字节验证的输入，保留原始换行和字节。
 code/samples/*.txt -text
+
+# 四类测试输入保留CR/LF、TAB及空文件的原始字节。
+code/testdata/*.txt -text
+*.docx binary
+*.zip binary
