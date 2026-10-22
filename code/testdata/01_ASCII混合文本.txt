@@ -1,0 +1,768 @@
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.
+Huffman coding turns character frequencies into a prefix code.
+AAAA AAAA AAAA BBBB CCCC DD: 0123456789!
+Check spaces, punctuation, TAB	and line endings.

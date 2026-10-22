@@ -1,0 +1,54 @@
+[
+  {
+    "case": "01_ASCII混合文本",
+    "original_bytes": 39680,
+    "kinds": 44,
+    "compressed_bytes": 24328,
+    "WPL": 192768,
+    "average_length": 4.858064516129033,
+    "entropy": 4.833802117500686,
+    "compression_ratio": 61.310483870967744,
+    "roundtrip": true,
+    "reference_bytes_match": true,
+    "sha256": "4c3075a6e17c227c8335354ece50b915ead923c6063e2713451dd319ad67d692"
+  },
+  {
+    "case": "02_空文件",
+    "original_bytes": 0,
+    "kinds": 0,
+    "compressed_bytes": 12,
+    "WPL": 0,
+    "average_length": null,
+    "entropy": null,
+    "compression_ratio": null,
+    "roundtrip": true,
+    "reference_bytes_match": true,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "case": "03_单一字符",
+    "original_bytes": 1024,
+    "kinds": 1,
+    "compressed_bytes": 145,
+    "WPL": 0,
+    "average_length": 1.0,
+    "entropy": -0.0,
+    "compression_ratio": 14.16015625,
+    "roundtrip": true,
+    "reference_bytes_match": true,
+    "sha256": "6ab72eeb9e77b07540897e0c8d6d23ec8eef0f8c3a47e1b3f4e93443d9536bed"
+  },
+  {
+    "case": "04_字符分布均匀",
+    "original_bytes": 6080,
+    "kinds": 95,
+    "compressed_bytes": 5543,
+    "WPL": 40448,
+    "average_length": 6.652631578947369,
+    "entropy": 6.569855608330948,
+    "compression_ratio": 91.16776315789473,
+    "roundtrip": true,
+    "reference_bytes_match": true,
+    "sha256": "a22072dcf1a64ca4b1352ecbe5d4beb079d38131149290c4d3e1ceb7027eb9ef"
+  }
+]
