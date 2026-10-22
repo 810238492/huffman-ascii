@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'">
+<title>哈夫曼树的构造过程 · 离线交互演示</title>
+<style>
+:root{color-scheme:light;--ink:#10283f;--muted:#586f82;--line:#dbe5eb;--blue:#1767a6;--teal:#008a86;--pale:#eaf6f5;--orange:#ad5d05;--orangebg:#fff2d9;--paper:#fff}
+*{box-sizing:border-box}body{margin:0;background:#f3f6f9;color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;font-size:14px;line-height:1.6}button,input,textarea,select{font:inherit}button{cursor:pointer}button:disabled{cursor:default;opacity:.4}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #7cbedf;outline-offset:3px}button,input,textarea,select{border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink)}button{padding:8px 13px;transition:background .2s}button:hover:not(:disabled){background:#edf5fa}input,select{padding:7px 9px}input[type=range]{padding:0;accent-color:var(--teal)}textarea{width:100%;padding:10px;resize:vertical;line-height:1.7}.primary{background:var(--teal);border-color:var(--teal);color:white}.primary:hover:not(:disabled){background:#007570}.secondary{color:var(--blue)}.app{max-width:1440px;margin:auto;padding:28px 32px 32px}.eyebrow{font-size:12px;font-weight:600;letter-spacing:.12em;color:var(--teal);margin:0 0 4px}header{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:20px}h1{font-size:28px;line-height:1.35;letter-spacing:.015em;margin:0 0 6px}header p{margin:0;color:var(--muted)}.offline{display:inline-flex;align-items:center;white-space:nowrap;gap:7px;padding:6px 11px;background:var(--pale);border-radius:30px;color:#006a65;font-size:12px}.offline:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--teal)}.layout{display:grid;grid-template-columns:270px minmax(0,1fr);gap:18px;align-items:start}.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;overflow:hidden}.sidebar{padding:19px}.section-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:12px}.section-head h2{font-size:16px;margin:0}.small{font-size:12px;color:var(--muted)}.switch{display:flex;padding:3px;background:#edf2f6;border-radius:9px;margin-bottom:16px}.switch button{width:50%;border:0;background:transparent;padding:7px 2px;font-size:13px}.switch [aria-pressed=true]{background:#fff;box-shadow:0 1px 4px #10283f16;color:var(--blue);font-weight:600}.row-head,.freq-row{display:grid;grid-template-columns:1fr 88px 26px;gap:7px;align-items:center}.row-head{font-size:12px;color:var(--muted);margin-bottom:7px}.freq-row{margin-bottom:8px}.freq-row input{width:100%;min-width:0}.freq-row input:first-child{text-align:center}.remove{border:0;background:transparent;padding:1px;font-size:20px;color:var(--muted)}.add{width:100%;border-style:dashed;margin:3px 0 13px;color:var(--blue);font-size:13px}.apply{width:100%;margin-top:4px}.example{border:0;background:none;padding:3px 0;color:var(--blue);font-size:12px}.error{font-size:12px;color:#a62626;min-height:20px;margin:7px 0 0}.rule{border-top:1px solid var(--line);padding-top:13px;margin-top:15px;font-size:12px;color:var(--muted)}.rule strong{display:block;color:var(--ink);font-size:13px;margin-bottom:5px}.sidebar details{margin-top:12px;font-size:12px;color:var(--muted)}summary{cursor:pointer;color:var(--ink)}.main{min-width:0}.stage-top{padding:18px 22px 14px;border-bottom:1px solid var(--line)}.steps{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);margin-bottom:14px;flex-wrap:wrap}.step-label{border-radius:20px;padding:3px 10px;background:#f0f4f7}.step-label.active{background:var(--pale);color:#006a65;font-weight:600}.stage-line{display:flex;justify-content:space-between;gap:16px;align-items:start}.stage-title{font-size:21px;margin:0 0 4px;font-weight:600;line-height:1.4}.stage-description{color:var(--muted);margin:0;min-height:22px}.counter{font-size:12px;white-space:nowrap;color:var(--muted);padding-top:6px}.queue{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:13px;min-height:29px}.queue-caption{font-size:12px;color:var(--muted);margin-right:4px}.token{padding:2px 9px;border-radius:6px;background:#f1f5f8;font-size:12px;font-variant-numeric:tabular-nums}.token.selected{color:#8e4c00;background:var(--orangebg);box-shadow:inset 0 0 0 1px #e7bc73}.token.new{color:#006963;background:var(--pale)}.forest-wrap{overflow:auto;background:linear-gradient(#fcfdff,#fff);padding:9px 8px 0;min-height:330px}.forest{display:block;width:100%;min-width:560px;height:auto}.forest text{font-family:"Microsoft YaHei",sans-serif;fill:var(--ink);text-anchor:middle}.node circle{fill:#eaf3fb;stroke:#6e9fbe;stroke-width:1.7}.node.internal circle{fill:#e7f4f3;stroke:#58a7a0}.node.chosen circle{fill:var(--orangebg);stroke:#c98c27;stroke-width:3}.node.fresh circle,.node.root-final circle{fill:#d4efea;stroke:var(--teal);stroke-width:2.8}.node .char{font-size:17px;font-weight:600}.node .weight{font-size:15px;font-weight:600;font-variant-numeric:tabular-nums}.node.internal .weight{font-size:19px}.node .id{font-size:10px;fill:var(--muted)}.node .pick{font-size:11px;fill:var(--orange)}.tree-edge{stroke:#8ca8b8;stroke-width:1.8}.bit{font-size:13px;fill:var(--teal)!important;font-weight:600;paint-order:stroke;stroke:white;stroke-width:5px;stroke-linejoin:round}.legend{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;font-size:11px;color:var(--muted);padding:3px 14px 12px}.legend span{display:inline-flex;gap:6px;align-items:center}.dot{width:9px;height:9px;border-radius:50%;background:#eaf3fb;border:1px solid #6e9fbe}.dot.pick{background:var(--orangebg);border-color:#c98c27}.dot.new{background:#d4efea;border-color:var(--teal)}.transport{border-top:1px solid var(--line);padding:13px 20px 15px}.range-row{display:flex;gap:12px;align-items:center;margin-bottom:12px}.range-row input{width:100%;height:5px;cursor:pointer}.range-row label{font-size:12px;color:var(--muted);white-space:nowrap}.controls{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}.nav{display:flex;gap:8px;flex-wrap:wrap}.speed{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--muted)}.speed select{font-size:12px;padding:6px}.learning{display:flex;align-items:flex-start;gap:8px;font-size:12px;color:var(--muted);padding:12px 20px;background:#f8fafc;border-top:1px solid var(--line)}.learning strong{color:var(--blue);white-space:nowrap}.results{margin-top:16px;padding:17px 21px}.results-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.results h2{font-size:15px;margin:0 0 9px}.codes{width:100%;border-collapse:collapse;font-size:13px}.codes th{text-align:left;color:var(--muted);font-size:12px;font-weight:400;border-bottom:1px solid var(--line);padding:5px 8px 6px 0}.codes td{padding:4px 8px 4px 0}.codes .code{font-family:Consolas,monospace;color:var(--teal);letter-spacing:.08em}.metrics{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0}.metric{min-width:78px}.metric .label{display:block;font-size:11px;color:var(--muted)}.metric .value{font-size:22px;font-weight:600;font-variant-numeric:tabular-nums}.metric small{font-size:11px;color:var(--muted)}.metrics-note{font-size:12px;color:var(--muted);margin:6px 0}.footer{font-size:11px;color:var(--muted);margin-top:15px;text-align:center}.hidden{display:none!important}#text-mode label{font-size:12px;color:var(--muted);display:block;margin-bottom:7px}@media(max-width:950px){.app{padding:20px}.layout{grid-template-columns:235px minmax(0,1fr)}.sidebar{padding:14px}.results-grid{grid-template-columns:1fr;gap:12px}.stage-top{padding:16px}.stage-title{font-size:19px}.controls{align-items:start}}@media(max-width:680px){.app{padding:16px 12px}header{align-items:start}h1{font-size:23px}.offline{display:none}.layout{grid-template-columns:1fr}.sidebar .rule{margin-top:8px}.results-grid{grid-template-columns:1fr}.stage-line{gap:8px}.stage-title{font-size:18px}.nav{gap:5px}.nav button{padding:7px 10px}.counter{font-size:11px}.forest-wrap{min-height:310px}.footer{text-align:left}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="app">
+<header><div><div class="eyebrow">数据结构 · 原理演示</div><h1>哈夫曼树的构造过程</h1><p>从字符频率出发，观察每一次选取与合并。</p></div><div class="offline">离线可用 · 无需安装</div></header>
+<div class="layout">
+<aside class="panel sidebar">
+<div class="section-head"><h2>设置字符频率</h2><button id="example" class="example">恢复ABCD样例</button></div>
+<div class="switch" role="group" aria-label="输入方式"><button id="mode-freq" aria-pressed="true">直接设定</button><button id="mode-text" aria-pressed="false">从文本统计</button></div>
+<div id="freq-mode"><div class="row-head"><span>字符</span><span>出现次数</span><span></span></div><div id="frequency-rows"></div><button class="add" id="add-row">＋ 添加字符</button></div>
+<div id="text-mode" class="hidden"><label for="source-text">输入文本（空格与换行也参与统计）</label><textarea id="source-text" rows="6" maxlength="5000"></textarea><p class="small">每个ASCII字符作为一个符号，最多演示12种字符（ASCII实验的符号范围为0—127）。</p></div>
+<button id="apply" class="primary apply">应用并开始演示</button><p id="error" class="error" role="alert"></p>
+<div class="rule"><strong>统一构树规则</strong>叶结点按ASCII码值升序编号。每轮选取权值最小的两个根；同权时优先编号小者，先选者为左孩子。</div>
+<details><summary>如何使用这份演示</summary><p>先预测，再点击“下一步”核对。每轮分为“选取”和“合并”两步；建树完成后显示左0右1及字符编码。方向键可前后翻步，空格键播放或暂停。</p><p>本页用于实验前原理预习，不连接外部服务；相关疑问可在学习通AI助学智能体中提出。内容、样式与脚本均保存在此文件中。</p></details>
+</aside>
+<main class="main">
+<section class="panel">
+<div class="stage-top"><div class="steps" aria-label="构造阶段"><span class="step-label" data-phase="initial">初始化</span><span>→</span><span class="step-label" data-phase="select">选取最小</span><span>→</span><span class="step-label" data-phase="merge">合并结点</span><span>→</span><span class="step-label" data-phase="code">读取编码</span></div><div class="stage-line"><div><h2 id="stage-title" class="stage-title"></h2><p id="stage-description" class="stage-description" aria-live="polite"></p></div><span id="step-count" class="counter"></span></div><div id="queue" class="queue" aria-label="当前待合并根结点"></div></div>
+<div class="forest-wrap"><svg id="forest" class="forest" role="img" aria-label="当前哈夫曼森林"></svg></div>
+<div class="legend"><span><i class="dot"></i>叶结点</span><span><i class="dot pick"></i>本轮选中</span><span><i class="dot new"></i>本轮新结点／最终根</span></div>
+<div class="transport"><div class="range-row"><label for="progress">演示进度</label><input id="progress" type="range" min="0" value="0" step="1"></div><div class="controls"><div class="nav"><button id="prev">← 上一步</button><button id="play" class="primary">自动播放</button><button id="next">下一步 →</button><button id="reset">回到初始</button></div><label class="speed" for="speed">播放速度<select id="speed"><option value="2400">慢</option><option value="1600" selected>标准</option><option value="900">快</option></select></label></div></div>
+<div class="learning"><strong>想一想</strong><span id="question"></span></div>
+</section>
+<section class="panel results"><div class="results-grid"><div><h2>字符与编码</h2><table class="codes"><thead><tr><th>字符</th><th>次数</th><th>哈夫曼编码</th><th>码长</th></tr></thead><tbody id="code-rows"></tbody></table></div><div><h2>从树到指标</h2><div class="metrics"><div class="metric"><span class="label" id="wpl-label">累计合并权值</span><span id="wpl" class="value"></span></div><div class="metric"><span class="label">平均码长</span><span id="average" class="value"></span><small> bit/字符</small></div><div class="metric"><span class="label">信息熵 H</span><span id="entropy" class="value"></span><small> bit/字符</small></div></div><p id="metrics-note" class="metrics-note"></p><p id="tie-note" class="metrics-note"></p></div></div></section>
+</main></div><div class="footer">配套案例：基于哈夫曼编码的无损文件压缩与还原　｜　教师引导：预测 → 观察 → 解释 → 手算核验</div>
+</div>
+<script id="huffman-core">
+'use strict';
+window.HuffmanCore=(()=>{
+const displayChar=c=>({' ':'[空格]','\n':'[LF]','\r':'[CR]','\t':'[TAB]','\0':'[NUL]','\x7f':'[DEL]'}[c]||c);
+function validate(entries){
+ if(!entries.length)throw new Error('请至少输入一种字符。');
+ if(entries.length>12)throw new Error('为了清楚展示，最多演示12种字符，请减少字符种类。');
+ const seen=new Set();
+ for(const e of entries){
+  if(Array.from(e.char).length!==1)throw new Error('每行需要一个ASCII字符。');
+  const cp=e.char.codePointAt(0);
+  if(cp>127)throw new Error('仅支持ASCII字符（码值0—127），请使用英文、数字、标点或空白字符。');
+  if(seen.has(e.char))throw new Error('字符重复，请合并同一字符的次数。');
+  seen.add(e.char);
+  if(!Number.isSafeInteger(e.weight)||e.weight<1||e.weight>1000000)throw new Error('出现次数须为1至1000000的整数。');
+ }
+ return entries;
+}
+function fromText(text){
+ const freq=new Map();for(const char of text)freq.set(char,(freq.get(char)||0)+1);
+ return validate(Array.from(freq,([char,weight])=>({char,weight})));
+}
+function build(input){
+ validate(input);
+ const leaves=input.map(e=>({...e})).sort((a,b)=>a.char.codePointAt(0)-b.char.codePointAt(0)).map((e,i)=>({...e,id:i+1,left:null,right:null}));
+ const compare=(a,b)=>a.weight-b.weight||a.id-b.id;
+ let forest=leaves.slice().sort(compare),id=leaves.length,sum=0,round=0;
+ const states=[{phase:'initial',forest:forest.slice(),selected:[],sum,round}];
+ while(forest.length>1){
+  round++;const [left,right]=forest;
+  states.push({phase:'select',forest:forest.slice(),selected:[left.id,right.id],left,right,sum,round});
+  const parent={id:++id,char:null,weight:left.weight+right.weight,left,right};
+  sum+=parent.weight;forest=[...forest.slice(2),parent].sort(compare);
+  states.push({phase:'merge',forest:forest.slice(),selected:[],fresh:parent.id,left,right,parent,sum,round});
+ }
+ const codes=new Map();let wpl=0;
+ function walk(node,code,depth){if(!node.left){codes.set(node.char,code||'0');wpl+=node.weight*depth;}else{walk(node.left,code+'0',depth+1);walk(node.right,code+'1',depth+1);}}
+ walk(forest[0],'',0);
+ const total=leaves.reduce((n,e)=>n+e.weight,0);
+ const average=leaves.reduce((n,e)=>n+e.weight*codes.get(e.char).length,0)/total;
+ const entropy=Math.max(0,-leaves.reduce((n,e)=>{const p=e.weight/total;return n+p*Math.log2(p);},0));
+ states.push({phase:'code',forest:forest.slice(),selected:[],sum,round});
+ return {leaves,states,codes,total,wpl,average,entropy};
+}
+return {build,fromText,displayChar};
+})();
+</script>
+<script>
+(()=>{
+const $=id=>document.getElementById(id), core=window.HuffmanCore;
+const defaults=[{char:'A',weight:3},{char:'B',weight:3},{char:'C',weight:6},{char:'D',weight:9}];
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let mode='freq',model,index=0,timer=null,previous=new Map(),frame=null;
+function row(char='',weight=1){
+ const el=document.createElement('div');el.className='freq-row';
+ el.innerHTML=`<input class="char-input" aria-label="字符" value="${escape(char)}" autocomplete="off"><input class="weight-input" aria-label="出现次数" type="number" min="1" max="1000000" step="1" value="${weight}"><button class="remove" aria-label="删除此字符">×</button>`;
+ el.querySelector('button').addEventListener('click',()=>el.remove());$('frequency-rows').append(el);
+}
+function stop(){clearInterval(timer);timer=null;$('play').textContent='自动播放';$('play').setAttribute('aria-pressed','false');}
+function setMode(next){mode=next;$('mode-freq').setAttribute('aria-pressed',String(mode==='freq'));$('mode-text').setAttribute('aria-pressed',String(mode==='text'));$('freq-mode').classList.toggle('hidden',mode!=='freq');$('text-mode').classList.toggle('hidden',mode!=='text');$('error').textContent='';}
+function apply(entries){stop();model=core.build(entries);index=0;previous=new Map();$('progress').max=model.states.length-1;render(false);}
+function loadExample(){setMode('freq');$('frequency-rows').replaceChildren();defaults.forEach(e=>row(e.char,e.weight));$('source-text').value='ABCD'.repeat(3)+'C'.repeat(3)+'D'.repeat(6);$('error').textContent='';apply(defaults);}
+function describe(state){
+ const roots=state.forest.length;
+ if(state.phase==='initial')return ['初始化叶结点',`${model.leaves.length}种字符，共${model.total}次；各叶结点的权值等于出现次数。`,'你认为首先应该选取哪两个结点？为什么？'];
+ if(state.phase==='select')return [`第${state.round}轮 · 选取两个最小权值`,`${state.left.weight}与${state.right.weight}：只在当前${roots}个根结点中选取，同权时先选编号小者。`,'选出的两个结点合并后，待合并根结点数会怎样变化？'];
+ if(state.phase==='merge')return [`第${state.round}轮 · 合并为新结点`,`${state.left.weight} + ${state.right.weight} = ${state.parent.weight}，待合并根结点由${roots+1}个减少为${roots}个。`,roots>1?'下一轮的最小权值是否仍来自原来的叶结点？':'现在只有一个根结点了，如何从根到叶得到每个字符的编码？'];
+ return ['构造完成 · 读取字符编码',model.leaves.length===1?'只有一种字符，叶结点也是根，约定其编码为0。':`根结点权值${model.total}。左分支记0、右分支记1，沿根到叶路径读取编码。`,'频率较高的字符是否使用更短的编码？用频次和码长手算WPL核对。'];
+}
+function geometry(forest){
+ const count=n=>n.left?count(n.left)+count(n.right):1;
+ const raw=forest.reduce((s,n)=>s+count(n)*86,0)+(forest.length-1)*38;
+ const width=Math.max(750,raw+80),positions=new Map(),edges=[];let cursor=(width-raw)/2,maxDepth=0;
+ function place(node,start,depth){
+  let x;
+  if(!node.left)x=start+43;
+  else {const l=place(node.left,start,depth+1),r=place(node.right,start+count(node.left)*86,depth+1);x=(l+r)/2;edges.push({parent:node.id,child:node.left.id,bit:0},{parent:node.id,child:node.right.id,bit:1});}
+  positions.set(node.id,{x,y:57+depth*84,node});maxDepth=Math.max(maxDepth,depth);return x;
+ }
+ forest.forEach(n=>{place(n,cursor,0);cursor+=count(n)*86+38;});
+ return {positions,edges,width,height:Math.max(300,57+maxDepth*84+62)};
+}
+function draw(state,animate){
+ if(frame)cancelAnimationFrame(frame);
+ const {positions,edges,width,height}=geometry(state.forest),svg=$('forest');
+ const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+ svg.setAttribute('viewBox',`0 0 ${width} ${height}`);
+ svg.style.minWidth=Math.max(560,Math.min(width,1200))+'px';
+ svg.setAttribute('aria-label',`${$('stage-title').textContent}。${$('stage-description').textContent}`);
+ const complete=state.phase==='code';
+ svg.innerHTML=edges.map(e=>`<line id="edge-${e.child}" class="tree-edge"></line>${complete?`<text id="bit-${e.child}" class="bit">${e.bit}</text>`:''}`).join('')+Array.from(positions,([id,p])=>{
+  const internal=!!p.node.left,chosen=state.selected.includes(id),fresh=state.fresh===id;
+  const shown=internal?'':core.displayChar(p.node.char);
+  const chars=Array.from(shown).length;
+  return `<g id="node-${id}" class="node ${internal?'internal':''} ${chosen?'chosen':''} ${fresh?'fresh':''} ${complete&&id===state.forest[0].id?'root-final':''}"><title>结点${id}${internal?'':`，字符${escape(shown)}`}，权值${p.node.weight}${chosen?'，本轮选中':''}</title><circle r="27"></circle>${internal?`<text class="weight" y="6" style="font-size:${Math.min(19,80/String(p.node.weight).length)}px">${p.node.weight}</text>`:`<text class="char" y="-3" ${chars>2?'style="font-size:11px"':''}>${escape(shown)}</text><text class="weight" y="17" style="font-size:${Math.min(15,80/String(p.node.weight).length)}px">${p.node.weight}</text>`}<text class="id" y="44">#${id}</text>${chosen?'<text class="pick" y="-36">选中</text>':''}</g>`;
+ }).join('');
+ const nodes=new Map(Array.from(positions,([id])=>[id,$('node-'+id)]));
+ const lines=edges.map(e=>({...e,el:$('edge-'+e.child),label:$('bit-'+e.child)}));
+ const old=previous;previous=positions;
+ const duration=animate&&!reduce?520:0;let start=null;
+ function paint(now){
+  if(start===null)start=now;
+  const t=duration?Math.min((now-start)/duration,1):1,ease=1-Math.pow(1-t,3),current=new Map();
+  for(const [id,p] of positions){const from=old.get(id)||p;current.set(id,{x:from.x+(p.x-from.x)*ease,y:from.y+(p.y-from.y)*ease});const c=current.get(id);nodes.get(id).setAttribute('transform',`translate(${c.x},${c.y})`);nodes.get(id).style.opacity=old.has(id)?1:Math.max(.15,t);}
+  for(const e of lines){const a=current.get(e.parent),b=current.get(e.child),dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy)||1;
+   e.el.setAttribute('x1',a.x+dx/len*28);e.el.setAttribute('y1',a.y+dy/len*28);e.el.setAttribute('x2',b.x-dx/len*28);e.el.setAttribute('y2',b.y-dy/len*28);
+   if(e.label){e.label.setAttribute('x',(a.x+b.x)/2+(dx<0?-8:8));e.label.setAttribute('y',(a.y+b.y)/2-4);}}
+  if(t<1)frame=requestAnimationFrame(paint);else frame=null;
+ }
+ paint(performance.now());
+}
+function render(animate=true){
+ const s=model.states[index],done=s.phase==='code',[title,desc,question]=describe(s);
+ $('stage-title').textContent=title;$('stage-description').textContent=desc;$('question').textContent=question;
+ $('step-count').textContent=`${index+1} / ${model.states.length}`;
+ document.querySelectorAll('[data-phase]').forEach(el=>el.classList.toggle('active',el.dataset.phase===s.phase));
+ $('queue').innerHTML='<span class="queue-caption">待合并根结点</span>'+s.forest.map(n=>`<span class="token ${s.selected.includes(n.id)?'selected':''} ${s.fresh===n.id?'new':''}">${n.char?escape(core.displayChar(n.char)):'子树'} · ${n.weight} <span class="small">#${n.id}</span></span>`).join('');
+ $('progress').value=index;$('prev').disabled=index===0;$('next').disabled=index===model.states.length-1;
+ $('code-rows').innerHTML=model.leaves.map(n=>`<tr><td>${escape(core.displayChar(n.char))}</td><td>${n.weight}</td><td class="code">${done?model.codes.get(n.char):'—'}</td><td>${done?model.codes.get(n.char).length:'—'}</td></tr>`).join('');
+ $('wpl-label').textContent=done?'带权路径长度 WPL':'累计合并权值';$('wpl').textContent=done?model.wpl:s.sum;
+ $('average').textContent=done?model.average.toFixed(4):'—';$('entropy').textContent=model.entropy.toFixed(4);
+ const j=model.leaves.find(n=>n.char==='A'),x=model.leaves.find(n=>n.char==='B');$('tie-note').textContent=j&&x&&j.weight===x.weight?'图中的 # 为结点编号。A与B同权，按统一规则确定左右次序；交换同权结点可得到不同合法编码，但码长与指标相同。':'图中的 # 为结点编号。同权时优先选编号小者，压缩与解压使用同一构树规则。';
+ $('metrics-note').textContent=!done?'每次合并的新权值累加，最终等于树的WPL。编码与平均码长在最后一步显示。':model.leaves.length===1?'单字符树深度为0，WPL=0、H=0；编码约定为0，实际平均码长为1。':`WPL = Σ(频次 × 叶深度) = ${model.wpl}；平均码长 = ${model.wpl}/${model.total}。此处不含文件头与补零。`;
+ draw(s,animate);
+}
+function go(i,manual=true){if(manual)stop();index=Math.max(0,Math.min(i,model.states.length-1));render();}
+function play(){if(timer){stop();return;}if(index===model.states.length-1)go(0);$('play').textContent='暂停播放';$('play').setAttribute('aria-pressed','true');timer=setInterval(()=>{go(index+1,false);if(index===model.states.length-1)stop();},Number($('speed').value));}
+$('prev').addEventListener('click',()=>go(index-1));$('next').addEventListener('click',()=>go(index+1));$('reset').addEventListener('click',()=>go(0));$('play').addEventListener('click',play);$('progress').addEventListener('input',()=>go(Number($('progress').value)));
+$('speed').addEventListener('change',()=>{if(timer){stop();play();}});
+$('mode-freq').addEventListener('click',()=>{stop();setMode('freq');});$('mode-text').addEventListener('click',()=>{stop();setMode('text');});$('example').addEventListener('click',loadExample);
+$('add-row').addEventListener('click',()=>{if($('frequency-rows').children.length>=12){$('error').textContent='最多演示12种字符（ASCII实验的符号范围为0—127）。';return;}row();});
+$('apply').addEventListener('click',()=>{
+ try{const entries=mode==='text'?core.fromText($('source-text').value):Array.from(document.querySelectorAll('.freq-row'),el=>({char:el.querySelector('.char-input').value,weight:Number(el.querySelector('.weight-input').value)}));apply(entries);$('error').textContent='';}
+ catch(e){$('error').textContent=e.message;}
+});
+document.addEventListener('keydown',e=>{if(/INPUT|TEXTAREA|SELECT|BUTTON/.test(e.target.tagName)||e.altKey||e.ctrlKey||e.metaKey)return;if(e.key==='ArrowRight'){e.preventDefault();go(index+1);}if(e.key==='ArrowLeft'){e.preventDefault();go(index-1);}if(e.code==='Space'){e.preventDefault();play();}});
+loadExample();
+})();
+</script>
+</body>
+</html>
