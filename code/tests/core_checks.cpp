@@ -1,46 +1,39 @@
-#define main HuffmanUTF8DemoMain
-#include "../huffman_utf8.cpp"
+#define main HuffmanASCIIDemoMain
+#include "../huffman_ascii.cpp"
 #undef main
 #include <cassert>
+#include <sstream>
 
 int main()
 {
-    string error,raw;u32string text;
-    assert(DecodeUTF8(u8"中中中AB",text,error)==OK && text.size()==5);
-    FrequencyTable FT={0,0,nullptr};
-    assert(CountFrequency(text,FT,error)==OK && FT.length==3);
-    assert(FT.elem[3].data==0x4E2Du && FT.elem[3].freq==3);
+    string error;
+    FrequencyTable FT={21,4,new CFNode[5]()};
+    const uint32_t freq[4]={3,3,6,9};
+    for(int i=1;i<=4;++i) {FT.elem[i].data=static_cast<unsigned char>('A'+i-1);FT.elem[i].freq=freq[i-1];}
     HuffmanTree HT=nullptr;HuffmanCode HC=nullptr;
     assert(CreateHuffmanTree(HT,FT,error)==OK);
-    assert(HuffmanCoding(HT,FT.length,HC,error)==OK);
-    assert(string(HC[1])=="00" && string(HC[2])=="01" && string(HC[3])=="1");
-    DestroyHuffmanCode(HC,FT.length);delete [] HT;DestroyFrequencyTable(FT);
+    assert(HuffmanCoding(HT,4,HC,error)==OK);
+    assert(string(HC[1])=="110" && string(HC[2])=="111");
+    assert(string(HC[3])=="10" && string(HC[4])=="0");
+    assert(CalculateWPL(HT,4)==39);
+    assert(abs(AverageLength(FT,HC)-39.0/21)<1e-12);
+    assert(abs(InformationEntropy(FT)-1.8423709931771084)<1e-12);
+    stringstream data(ios::in|ios::out|ios::binary);
+    assert(WriteHeader(data,FT,error)==OK && data.str().size()==32);
+    FrequencyTable read={0,0,nullptr};
+    assert(ReadHeader(data,read,error)==OK && read.charCount==21 && read.length==4);
+    DestroyFrequencyTable(read);DestroyHuffmanCode(HC,4);delete [] HT;DestroyFrequencyTable(FT);
 
-    //全部合法Unicode标量的UTF-8转换边界，跳过代理码点。
-    for(uint32_t cp=0;cp<=0x10FFFFu;++cp)
-    {
-        if(!IsUnicodeScalar(cp))continue;
-        char bytes[4];int n=EncodeUTF8(cp,bytes);
-        raw.append(bytes,static_cast<size_t>(n));
-    }
-    assert(DecodeUTF8(raw,text,error)==OK && text.size()==MAX_CHAR_TYPES);
-    size_t i=0;
-    for(uint32_t cp=0;cp<=0x10FFFFu;++cp)
-        if(IsUnicodeScalar(cp))assert(static_cast<uint32_t>(text[i++])==cp);
+    FT={1,1,new CFNode[2]()};FT.elem[1]={'A',1};
+    assert(CreateHuffmanTree(HT,FT,error)==OK && HuffmanCoding(HT,1,HC,error)==OK);
+    assert(CalculateWPL(HT,1)==0 && string(HC[1])=="0");
+    assert(AverageLength(FT,HC)==1 && InformationEntropy(FT)==0);
+    DestroyHuffmanCode(HC,1);delete [] HT;DestroyFrequencyTable(FT);
 
-    //600种字符，合并权值必须使用64位。
-    FT.charCount=static_cast<uint64_t>(numeric_limits<uint32_t>::max())*600;
-    FT.length=600;
-    FT.elem=new CFNode[601]();
-    for(int j=1;j<=600;++j)
-    {
-        FT.elem[j].data=0x4E00u+static_cast<uint32_t>(j);
-        FT.elem[j].freq=numeric_limits<uint32_t>::max();
-    }
-    assert(CreateHuffmanTree(HT,FT,error)==OK);
-    assert(HT[1199].weight==FT.charCount);
-    assert(LocateCharacter(FT,0x4E01u)==1 && LocateCharacter(FT,0)==0);
+    FT={static_cast<uint64_t>(UINT32_MAX)*128,128,new CFNode[129]()};
+    for(int i=1;i<=128;++i) {FT.elem[i].data=static_cast<unsigned char>(i-1);FT.elem[i].freq=UINT32_MAX;}
+    assert(CreateHuffmanTree(HT,FT,error)==OK && HT[255].weight==FT.charCount);
+    assert(CalculateWPL(HT,128)==FT.charCount*7);
     delete [] HT;DestroyFrequencyTable(FT);
-    cout<<"Unicode scalar and tree checks passed\n";
-    return 0;
+    cout<<"ASCII tree, tie rule, header, metrics and 64-bit weight checks passed\n";
 }
